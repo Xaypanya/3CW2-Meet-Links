@@ -64,12 +64,12 @@ body {
 	margin-bottom: 20px;
 	width: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	background-color: #5041d8;
 	transition: all 0.15s;
 	box-shadow: 0px 6px #382ab3;
-	padding: 6px;
+	padding: 10px 15px;
 	border-radius: 5px;
 }
 
@@ -83,8 +83,17 @@ body {
 	box-shadow: 0px 0px #007569;
 }
 
-.link i {
-	margin-right: 10px;
+
+
+.subject {
+	/* border: 1px solid blue; */
+	display: flex;
+	
+}
+
+.subject-icon {
+	width: 25px;
+	/* border: 1px solid white; */
 }
 
 #disableLink {
@@ -100,3 +109,36 @@ body {
 	margin-left: 20px;
 }
 
+@media only screen and (min-width: 700px){
+
+	#links {
+		width: 70%;
+	}
+
+	.link {
+		font-size: 1.5rem;
+	}
+
+	.subject-icon {
+		width: 55px;
+		/* border: 1px solid white; */
+	}
+
+	#userName {
+		font-size: 2rem;
+	}
+
+	#credit {
+		font-size: 1rem;
+	}
+
+
+}
+
+
+@media only screen and (min-width: 1280px){ 
+	#links {
+		width: 40%;
+	}
+
+}
