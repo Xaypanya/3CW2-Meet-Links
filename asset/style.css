@@ -16,6 +16,12 @@ body {
 	text-decoration: none;
 }
 
+
+.update-title {
+	font-size: 1.1rem;
+	padding: 0px 0px 15px 0px;
+}
+
 .container {
 	position: relative;
 	min-width: 100%;
@@ -109,6 +115,19 @@ body {
 	margin-left: 20px;
 }
 
+.table-img-container {
+	max-width: 70%;
+	margin: 0 auto;
+}
+
+.table-img-container img{
+	width: 100%;
+	height: auto;
+	border: 3px solid #fff;
+	border-radius: 10px;
+}
+
+
 @media only screen and (min-width: 700px){
 
 	#links {
@@ -132,6 +151,9 @@ body {
 		font-size: 1rem;
 	}
 
+	.table-img-container {
+		max-width: 35%;
+	}
 
 }
 
