@@ -16,6 +16,18 @@ body {
 	text-decoration: none;
 }
 
+hr {
+	margin: 100px 0px;
+	border: 1px solid rgb(255, 255, 255);
+	width: 50%;
+}
+
+
+button {
+	border: 0px;
+	cursor: pointer;
+}
+
 
 .update-title {
 	font-size: 1.1rem;
