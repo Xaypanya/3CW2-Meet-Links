@@ -10,9 +10,13 @@
     <link rel="stylesheet" href="asset/style.css">
     <link rel="stylesheet" href="asset/Defago_webfont/font-face.css">
     <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/898893230928711750/903556715327389766/CW2_LOGO_01.png" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>3CW2 Meet Links</title>
 </head>
 <body>
+    <div class="loader">
+        <div></div>
+    </div>
     <div class="container">
         
         <!-- <img alt='User Photo' title="ໂລໂກ້ຫ້ອງ 3CW2" id='userPhoto' src='https://cdn.discordapp.com/attachments/898893230928711750/903556715327389766/CW2_LOGO_01.png'/> -->
@@ -465,10 +469,16 @@
         </div>
     </div>
     <span id="credit">Dev @Xaypanya Phongsa</span>
-    <span id="credit">Thanks @Thanouthong Nanthavong</span>
+    <span id="credit" class="credit-2">Thanks @Thanouthong Nanthavong</span>
     
 
     <!-- javascript -->
+    <script>
+        $(window).on('load',function(){
+            $(".loader").fadeOut("slow");
+            $(".content").fadeIn("slow");
+        })
+    </script>
     <script src="js/particles.min.js"></script>
     <script src="js/app.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
