@@ -15,9 +15,9 @@ body {
 	text-decoration: none;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     display: none;
-}
+} */
 
 .loader {
 	z-index: 100;
@@ -175,9 +175,7 @@ button {
 	opacity: 70%;
 	margin-left: 20px;
 	margin-bottom: 20px;
-	
 }
-
 
 
 .table-img-container {
