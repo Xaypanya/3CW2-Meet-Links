@@ -10,7 +10,7 @@ function display_clockTime() {
         format_getMins = getMins < 10 ? ":0" + getMins : ":" + getMins,
         format_getSecs = getSecs < 10 ? ":0" + getSecs : ":" + getSecs,
         i = "🕐 "+ date.getDate().toString() + format_getMonth +  "-" + date.getFullYear();
-    (i = i + " • " + format_getHours + format_getMins + format_getSecs + timePeriod), (document.getElementById("clockTime").innerHTML = i), display_c5();
+    (i = i + " ◃▹ " + format_getHours + format_getMins + format_getSecs + timePeriod), (document.getElementById("clockTime").innerHTML = i), display_c5();
 }
 function display_c5() {
     mytime = setTimeout("display_clockTime()", 1e3);
