@@ -123,6 +123,7 @@ button {
 	transition: all 0.15s;
 	cursor: pointer;
 	border-radius: 50%;
+	object-fit: cover;
 }
 
 #userPhoto:hover {
