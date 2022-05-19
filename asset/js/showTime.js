@@ -2,7 +2,7 @@ function display_clockTime() {
     var date = new Date(),
         timePeriod = date.getHours() >= 12 ? " PM" : " AM",
         getMonth = date.getMonth() + 1,
-        getDay = date.getDay() + 1; 
+        getDay = date.getDate(); 
         getHours = date.getHours(),
         getMins = date.getMinutes(),
         getSecs = date.getSeconds();
