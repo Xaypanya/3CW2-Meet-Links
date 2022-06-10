@@ -68,7 +68,6 @@ function display_clockTime() {
 
     (i = i + " ◃▹ " + format_getHours + format_getMins + format_getSecs + timePeriod), (document.getElementById("clockTime").innerHTML = i), display_c5();
 
-
 }
 function display_c5() {
     mytime = setTimeout("display_clockTime()", 1e3);
