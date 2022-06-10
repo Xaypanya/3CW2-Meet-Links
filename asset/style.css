@@ -187,9 +187,32 @@ button {
 	/* border: 1px solid white; */
 }
 
-#disableLink {
-	pointer-events: none;
-	opacity: 40%;
+.disableLink {
+	display: none;
+}
+
+.disableLink_show {
+	opacity: 100%;
+	font-size: .8rem;
+	display: block;
+	margin-bottom: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: transparent;
+	border: 2px solid #5041d8;
+	transition: all 0.15s;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+
+.disableLink_show:hover {
+	transform: scale(1.05);
+}
+
+.disableLink_show:active {
+	transform: scale(1);
 }
 
 #credit {
@@ -215,13 +238,27 @@ button {
 }
 
 
+.titleToLearning_show{
+		color: white;
+	font-size: 1.1rem;
+	font-weight: 600;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.titleToLearning_hide {
+	display: none;
+}
+
+
 @media only screen and (min-width: 700px){
 
 	#links {
 		width: 70%;
 	}
 
-	.link {
+	.link, .disableLink, .disableLink_show {
 		font-size: 1.5rem;
 	}
 
@@ -230,9 +267,10 @@ button {
 		/* border: 1px solid white; */
 	}
 
-	#userName {
+	#userName,.titleToLearning_show {
 		font-size: 2rem;
 	}
+
 
 	#credit {
 		font-size: 1rem;

@@ -21,17 +21,18 @@
         <div></div>
     </div>
     <div class="container">
-        <img alt='3CW2 Logo Icon' title="ໂລໂກ້ຫ້ອງ 3CW2" id='userPhoto' src='https://c.tenor.com/hW8R0x4dgwsAAAAC/sailor-moon-aesthetic.gif' />
+        <img alt='3CW2 Logo Icon' title="ໂລໂກ້ຫ້ອງ 3CW2" id='userPhoto' src='http://images6.fanpop.com/image/photos/43600000/Ocean-Waves-studio-ghibli-43615558-540-240.gif' />
         <span id='userName'>3CW2 Meet Links </span>
         <p class="update-title">📢 ປັບປຸງຫຼ້າສຸດ: 19-05-2022</p>
         <p class="update-title" id="clockTime"></p>
+        <span id='titleToLearning' class="titleToLearning_hide">👩‍💻 ຮຽນມື້ນີ້</span>
         <div id='links'>
 
             <!-- ##################################################### -->
             <!-- ##################################################### -->
 
             <!--  Mobile App -->
-            <a class='link' href="https://meet.google.com/qwa-bzkr-rfh" target='_blank'>
+            <a id="mobile_app_lect" class='disableLink' href="https://meet.google.com/qwa-bzkr-rfh" target='_blank'>
                 <div class="subject">
                     <div class="subject-icon">
                         <i class="fa-brands fa-android"></i>
@@ -48,7 +49,7 @@
             <!-- ##################################################### -->
 
             <!--  Mobile App Lab-->
-            <a class='link' href="https://meet.google.com/ykz-mpto-gxf" target='_blank'>
+            <a id="mobile_app_lab" class='disableLink' href="https://meet.google.com/ykz-mpto-gxf" target='_blank'>
                 <div class="subject">
                     <div class="subject-icon">
                         <i class="fa-brands fa-android"></i>
@@ -65,7 +66,7 @@
             <!-- ##################################################### -->
 
             <!--  IOT -->
-            <a class='link' href="https://meet.google.com/vhi-gkga-kou" target='_blank'>
+            <a id="iot_lect" class='disableLink' href="https://meet.google.com/vhi-gkga-kou" target='_blank'>
                 <div class="subject">
                     <div class="subject-icon">
                         <i class="fa-solid fa-wifi"></i>
@@ -82,7 +83,7 @@
             <!-- ##################################################### -->
 
             <!--  Machine Learning Lect -->
-            <a class='link' href="https://meet.google.com/mho-jbnw-rsx" target='_blank'>
+            <a id="machine_learning_lect" class='disableLink' href="https://meet.google.com/mho-jbnw-rsx" target='_blank'>
                 <div class="subject">
                     <div class="subject-icon">
                         <i class="fa-solid fa-robot"></i>
@@ -99,7 +100,7 @@
             <!-- ##################################################### -->
 
             <!--  Machine Learning Lab -->
-            <a class='link' href="https://meet.google.com/zbs-nboi-tgu" target='_blank'>
+            <a id="machine_learning_lab" class='disableLink' href="https://meet.google.com/zbs-nboi-tgu" target='_blank'>
                 <div class="subject">
                     <div class="subject-icon">
                         <i class="fa-solid fa-robot"></i>
@@ -116,7 +117,7 @@
             <!-- ##################################################### -->
 
             <!--  ສຳມະນາ  -->
-            <a class='link' href="https://meet.google.com/cdg-jikh-fxk" target='_blank'>
+            <a id="seminar_lect" class='disableLink' href="https://meet.google.com/cdg-jikh-fxk" target='_blank'>
                 <div class="subject">
                     <div class="subject-icon">
                         <i class="fa-solid fa-handshake"></i>
@@ -134,7 +135,7 @@
 
 
             <!--      ມະນຸດສຳພັນ ( Lect ) -->
-            <a class='link' href="https://meet.google.com/czf-tmoz-gaf" target='_blank'>
+            <a id="human_relation_lect" class='disableLink' href="https://meet.google.com/czf-tmoz-gaf" target='_blank'>
                 <div class="subject">
                     <div class="subject-icon">
                         <i class="fa-solid fa-heart"></i>
@@ -151,7 +152,7 @@
             <!-- ##################################################### -->
 
             <!--  Software Engineer ( Lect ) -->
-            <a class='link' href="https://meet.google.com/cfh-frnj-rvc" target='_blank'>
+            <a id="software_engineering_lect" class='disableLink' href="https://meet.google.com/cfh-frnj-rvc" target='_blank'>
                 <div class="subject">
                     <div class="subject-icon">
                         <i class="fa-solid fa-computer"></i>
@@ -168,7 +169,7 @@
             <!-- ##################################################### -->
 
             <!--   Web Security ( Lect ) -->
-            <a class='link' href="https://meet.google.com/vjh-hfwo-cfz" target='_blank'>
+            <a id="web_secure_lect" class='disableLink' href="https://meet.google.com/vjh-hfwo-cfz" target='_blank'>
                 <div class="subject">
                     <div class="subject-icon">
                         <i class="fa-solid fa-shield-halved"></i>
@@ -185,7 +186,7 @@
             <!-- ##################################################### -->
 
             <!--   Web Security ( Lab ) -->
-            <a class='link' href="https://meet.google.com/tgx-eeim-wsu" target='_blank'>
+            <a id="web_secure_lab" class='disableLink' href="https://meet.google.com/tgx-eeim-wsu" target='_blank'>
                 <div class="subject">
                     <div class="subject-icon">
                         <i class="fa-solid fa-shield-halved"></i>
@@ -205,7 +206,7 @@
 
 
             <!--  ASP.net 2 ( Lect )-->
-            <a class='link' href="https://meet.google.com/baa-ptgz-sfj" target='_blank'>
+            <a id="asp_lect" class='disableLink' href="https://meet.google.com/baa-ptgz-sfj" target='_blank'>
                 <div class="subject">
                     <div class="subject-icon">
                         <i class="fa-solid fa-laptop-code"></i>
@@ -222,7 +223,225 @@
             <!-- ##################################################### -->
 
             <!--  ASP.net 2 ( Lab )-->
-            <a class='link' href="https://meet.google.com/hnc-kyfh-uxd" target='_blank'>
+            <a id="asp_lab" class='disableLink' href="https://meet.google.com/hnc-kyfh-uxd" target='_blank'>
+                <div class="subject">
+                    <div class="subject-icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+
+                    </div>
+                    <div class="subject-title">
+                        ASP.net 2 ( Lab )
+                    </div>
+                </div>
+                <div class="teacher"> ອຈ ສຸລິດ</div>
+            </a>
+
+            <!-- ##################################################### -->
+            <!-- ##################################################### -->
+
+
+        </div>
+
+
+        <span id='userName'>🍧 ທັງໝົດ</span>
+        <div id='links'>
+
+            <!-- ##################################################### -->
+            <!-- ##################################################### -->
+
+            <!--  Mobile App -->
+            <a  class='disableLink_show' href="https://meet.google.com/qwa-bzkr-rfh" target='_blank'>
+                <div class="subject">
+                    <div class="subject-icon">
+                        <i class="fa-brands fa-android"></i>
+
+                    </div>
+                    <div class="subject-title">
+                        Mobile App ( Lect )
+                    </div>
+                </div>
+                <div class="teacher"> ອຈ ບຸນມີ </div>
+            </a>
+
+            <!-- ##################################################### -->
+            <!-- ##################################################### -->
+
+            <!--  Mobile App Lab-->
+            <a class='disableLink_show' href="https://meet.google.com/ykz-mpto-gxf" target='_blank'>
+                <div class="subject">
+                    <div class="subject-icon">
+                        <i class="fa-brands fa-android"></i>
+
+                    </div>
+                    <div class="subject-title">
+                        Mobile App ( Lab )
+                    </div>
+                </div>
+                <div class="teacher"> ອຈ ບຸນມີ </div>
+            </a>
+
+            <!-- ##################################################### -->
+            <!-- ##################################################### -->
+
+            <!--  IOT -->
+            <a  class='disableLink_show' href="https://meet.google.com/vhi-gkga-kou" target='_blank'>
+                <div class="subject">
+                    <div class="subject-icon">
+                        <i class="fa-solid fa-wifi"></i>
+
+                    </div>
+                    <div class="subject-title">
+                        IOT ( Lect + Lab)
+                    </div>
+                </div>
+                <div class="teacher"> ປອ ສົມສັກ </div>
+            </a>
+
+            <!-- ##################################################### -->
+            <!-- ##################################################### -->
+
+            <!--  Machine Learning Lect -->
+            <a  class='disableLink_show' href="https://meet.google.com/mho-jbnw-rsx" target='_blank'>
+                <div class="subject">
+                    <div class="subject-icon">
+                        <i class="fa-solid fa-robot"></i>
+
+                    </div>
+                    <div class="subject-title">
+                        Machine Learning ( Lect )
+                    </div>
+                </div>
+                <div class="teacher"> ປອ ພູທອນ </div>
+            </a>
+
+            <!-- ##################################################### -->
+            <!-- ##################################################### -->
+
+            <!--  Machine Learning Lab -->
+            <a  class='disableLink_show' href="https://meet.google.com/zbs-nboi-tgu" target='_blank'>
+                <div class="subject">
+                    <div class="subject-icon">
+                        <i class="fa-solid fa-robot"></i>
+
+                    </div>
+                    <div class="subject-title">
+                        Machine Learning ( Lab )
+                    </div>
+                </div>
+                <div class="teacher"> ປອ ພູທອນ </div>
+            </a>
+
+            <!-- ##################################################### -->
+            <!-- ##################################################### -->
+
+            <!--  ສຳມະນາ  -->
+            <a  class='disableLink_show' href="https://meet.google.com/cdg-jikh-fxk" target='_blank'>
+                <div class="subject">
+                    <div class="subject-icon">
+                        <i class="fa-solid fa-handshake"></i>
+
+                    </div>
+                    <div class="subject-title">
+                        ສຳມະນາ
+                    </div>
+                </div>
+                <div class="teacher"> ປອ ພູທອນ</div>
+            </a>
+
+            <!-- ##################################################### -->
+            <!-- ##################################################### -->
+
+
+            <!--      ມະນຸດສຳພັນ ( Lect ) -->
+            <a  class='disableLink_show' href="https://meet.google.com/czf-tmoz-gaf" target='_blank'>
+                <div class="subject">
+                    <div class="subject-icon">
+                        <i class="fa-solid fa-heart"></i>
+
+                    </div>
+                    <div class="subject-title">
+                        ມະນຸດສຳພັນ ( Lect )
+                    </div>
+                </div>
+                <div class="teacher"> ອຈ ຈັນດາວັນ</div>
+            </a>
+
+            <!-- ##################################################### -->
+            <!-- ##################################################### -->
+
+            <!--  Software Engineer ( Lect ) -->
+            <a  class='disableLink_show' href="https://meet.google.com/cfh-frnj-rvc" target='_blank'>
+                <div class="subject">
+                    <div class="subject-icon">
+                        <i class="fa-solid fa-computer"></i>
+
+                    </div>
+                    <div class="subject-title">
+                        Software Engineer ( Lect )
+                    </div>
+                </div>
+                <div class="teacher"> ອຈ ບົວສົດ</div>
+            </a>
+
+            <!-- ##################################################### -->
+            <!-- ##################################################### -->
+
+            <!--   Web Security ( Lect ) -->
+            <a  class='disableLink_show' href="https://meet.google.com/vjh-hfwo-cfz" target='_blank'>
+                <div class="subject">
+                    <div class="subject-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+
+                    </div>
+                    <div class="subject-title">
+                        Web Security ( Lect )
+                    </div>
+                </div>
+                <div class="teacher"> ປທ ເພັດ</div>
+            </a>
+
+            <!-- ##################################################### -->
+            <!-- ##################################################### -->
+
+            <!--   Web Security ( Lab ) -->
+            <a  class='disableLink_show' href="https://meet.google.com/tgx-eeim-wsu" target='_blank'>
+                <div class="subject">
+                    <div class="subject-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+
+                    </div>
+                    <div class="subject-title">
+                        Web Security ( Lab )
+                    </div>
+                </div>
+                <div class="teacher"> ປທ ເພັດ</div>
+            </a>
+
+
+
+            <!-- ##################################################### -->
+            <!-- ##################################################### -->
+
+
+            <!--  ASP.net 2 ( Lect )-->
+            <a  class='disableLink_show' href="https://meet.google.com/baa-ptgz-sfj" target='_blank'>
+                <div class="subject">
+                    <div class="subject-icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+
+                    </div>
+                    <div class="subject-title">
+                        ASP.net 2 ( Lect )
+                    </div>
+                </div>
+                <div class="teacher"> ອຈ ສຸລິດ</div>
+            </a>
+
+            <!-- ##################################################### -->
+            <!-- ##################################################### -->
+
+            <!--  ASP.net 2 ( Lab )-->
+            <a  class='disableLink_show' href="https://meet.google.com/hnc-kyfh-uxd" target='_blank'>
                 <div class="subject">
                     <div class="subject-icon">
                         <i class="fa-solid fa-laptop-code"></i>
