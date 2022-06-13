@@ -30,7 +30,8 @@ function display_clockTime() {
         var software_engineering_lect = document.getElementById("software_engineering_lect");
         var titleToLearning = document.getElementById("titleToLearning");
 
-        console.log(dateStr)
+        //For debugging only
+        // console.log(dateStr)
 
         if(dateStr == "Monday"){
             mobile_app_lect.setAttribute("class", "link");
