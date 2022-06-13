@@ -15,7 +15,7 @@ function display_clockTime() {
         i = "🕐 "+ format_getDay + format_getMonth +  "-" + date.getFullYear();
 
         getDateStr = getMonth.toString()+"-"+getDay.toString()+"-"+date.getFullYear();
-        var dateStr = new Date("6-10-2022").toLocaleString('en-us', {weekday:'long'});
+        var dateStr = new Date(getDateStr).toLocaleString('en-us', {weekday:'long'});
         var mobile_app_lect = document.getElementById("mobile_app_lect");
         var mobile_app_lab = document.getElementById("mobile_app_lab");
         var iot_lect = document.getElementById("iot_lect");
@@ -63,6 +63,7 @@ function display_clockTime() {
             asp_lab.setAttribute("class", "link");
             titleToLearning.setAttribute("class","titleToLearning_show");
         }
+
 
   
 
